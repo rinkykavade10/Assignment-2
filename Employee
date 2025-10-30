@@ -1,0 +1,38 @@
+package com.tka.demo1;
+import java.util.Scanner;
+
+ public class Employee {
+	 public static void main(String[] args) {
+      String name;
+    int age;
+    String city;
+    String post;
+    double basic_salary;
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter  Name: ");
+        name = sc.nextLine();
+
+        System.out.print("Enter Age: ");
+        age = sc.nextInt();
+        sc.nextLine(); 
+
+        System.out.print("Enter City: ");
+        city = sc.nextLine();
+
+        System.out.print("Enter  Post: ");
+        post = sc.nextLine();
+
+        System.out.print("Enter Salary: ");
+        basic_salary = sc.nextDouble();
+    
+        System.out.println(" Employee Details");
+        System.out.println("Name         : " + name);
+        System.out.println("Age          : " + age);
+        System.out.println("City         : " + city);
+        System.out.println("Post         : " + post);
+        System.out.println("Basic Salary : " + basic_salary);
+    
+}
+}
+
+
