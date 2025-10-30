@@ -1,0 +1,15 @@
+package com.tka.demo1;
+import java.util.Scanner;
+public class div47 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System .out.println("Enter number to check div by 4 & 7");
+	  int a = sc.nextInt();
+	   if (a%4==0 && a%7==0) {
+		   System.out.println("div by 4  & 7 number is "+a);
+	   }
+	   else {
+		   System.out.println("not div by 4 & 7  number is "+a);
+	   }
+}
+}
